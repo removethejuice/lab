@@ -1,14 +1,30 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+ 
 package lab3p2_diegochavez_122211369;
+ 
+public class liquido extends cohetes {
+   private float litros;
 
-/**
- *
- * @author 50497
- */
-public class liquido {
+    public liquido() {
+        super ();
+    }
+
+    public liquido(float litros, float peso, String nombre, String numero, int potencia, int velocidad) {
+        super(peso, nombre, numero, potencia, velocidad);
+        this.litros = litros;
+    }
+
+    public float getLitros() {
+        return litros;
+    }
+
+    public void setLitros(float litros) {
+        this.litros = litros;
+    }
+
+    
+
+   
+   
+   
     
 }
